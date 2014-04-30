@@ -176,10 +176,10 @@
                   },
                   {
                      "name":"permission",
-                     "description":"The permission of a file/directory",
+                     "description":"The permission of a file/directory as a octal string.",
                      "required":false,
                      "allowMultiple":false,
-                     "dataType":"int",
+                     "dataType":"string",
                      "paramType":"query"
                   },
                   {
