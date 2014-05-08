@@ -135,8 +135,28 @@
                     ],
                     "deprecated": "false"
                 }
-            ]
-        }
+	    ]
+	},
+	{
+	    "path": "/os/dmesg",
+	    "operations": [
+		{
+		    "method": "GET",
+		    "summary": "return the boot up debug messages",
+		    "notes": "",
+		    "responseClass": "string",
+		    "nickname" : "getDebugMessages",
+		    "produces": [
+		        "application/json",
+			"application/xml"
+		    ],
+		    "parameters": [
+		    ],
+		    "deprecated": "false"
+		}
+	    ]
+
+	}
     ]
 
 }
